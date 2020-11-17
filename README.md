@@ -1,6 +1,6 @@
 # PneumoniaDetectionDeepLearning
 
-Pneumonia detection using deep learning with Python and PyTorch.
+Pneumonia detection using deep learning with Python and Tensorflow/Keras.
 
 ## Dataset
 
