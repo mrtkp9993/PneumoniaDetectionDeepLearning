@@ -1,0 +1,32 @@
+<html lang="en">
+<body>
+
+<div style="text-align: center;">
+
+    <h1>Pneumonia Detection</h1><br>
+
+    <h2>Select a file to upload</h2>
+    <form action="/" enctype="multipart/form-data" method="post">
+        <dl>
+            <p>
+                <input autocomplete="off" name="file" required type="file">
+            </p>
+        </dl>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+
+    <p>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        Label: {{ messages[0] }}
+        Accuracy: {{ messages[1] }}
+        {% endif %}
+        {% endwith %}
+    </p>
+
+</div>
+
+</body>
+</html>
