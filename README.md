@@ -1,6 +1,6 @@
 # PneumoniaDetectionDeepLearning
 
-![https://img.shields.io/badge/View%20in%20nbviewer-View%20-orange](https://nbviewer.jupyter.org/github/mrtkp9993/PneumoniaDetectionDeepLearning/blob/main/notebook_wip.ipynb)
+[![View](https://img.shields.io/badge/View%20in%20nbviewer-View%20-orange)](https://nbviewer.jupyter.org/github/mrtkp9993/PneumoniaDetectionDeepLearning/blob/main/notebook_wip.ipynb)
 
 Pneumonia detection using deep learning with Python and Tensorflow/Keras.
 
