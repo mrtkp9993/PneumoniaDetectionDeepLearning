@@ -45,3 +45,11 @@ data
 │   └───pneumonia_virus
 │       │   ...
 ```
+
+## Flask App
+
+One can run flask app with:
+
+```
+FLASK_APP=app.py flask run
+```
